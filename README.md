@@ -1,10 +1,8 @@
 **Companion Code for:**
-****************************************************************
-****************************************************************
+
 # Canonical sectors and evolution of firms 
 # in the US stock markets
-****************************************************************
-****************************************************************
+
 **Citation:**
 
 > Lorien X. Hayden, Ricky Chachra, Alexander A. Alemi,
@@ -16,10 +14,9 @@
 
 **Last updated 09/17/2018 by Lorien Hayden**
 
-****************************************************************
+*****************************************************
 
 ## Use:
-****
 
 ```console
 foo@bar:~$ python main.py -v
@@ -32,9 +29,7 @@ main.py
 3) Produces figures in png format, table data in txt/LaTex format, and sankey data in json format. Saves output to folder 'aa-stocks/figures/'
 
 
-
 ## External Code Sources:
-**********************
 
 **Archetypal Analysis:**
 archetypal_analysis.py is a python implementation of the MATLAB code provided accompanying *Morup, M. and Hansen, L.K., Archetypal analysis for machine learning and data mining. Neurocomputing,2012,80,54-63*
@@ -47,7 +42,7 @@ The sankey diagram is rendered using the Sankey extension provided by Mike Bosto
 
 
 ## To Do:
-**********************
+
 * Update plotting functions to produce figures in latest formatting
 * Add linear regressions which compare the explanatory power of the three sector archetypal analysis decomposition with the market cap decomposition of Fama and French
                                                                       
